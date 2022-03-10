@@ -7,15 +7,15 @@ require('discord-buttons')(bot);
 const { Color, Image, Footer, Author } = require("./config.js");
 const fs = require("fs"); 
 const request = require("request");
-const prefix = "e!";
+const prefix = "s!";
 const { Collection, MessageEmbed } = require("discord.js");
 const { inspect } = require("util");
-let dev = ["738478465870987425"];
+let dev = ["790681602245656618"];
 const cmd = require("node-cmd");
 
-bot.login("NzMzMjg3NDkzMDQxOTEzODc3.XxA9Mg.l2LgcUulZ7JZLUW7D89HBvSWS9M")
+bot.login("OTE3ODE5NjQxNTU0OTUyMjYy.Ya-QJg.REubkr6OCV4HobioiSEVyUAh374")
 global.mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://expert:expert@cluster0.gsjzz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+mongoose.connect("mongodb+srv://hardi:hardijabar@cluster0.sttzd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
   console.log("✅ Connected to the database.");
 }).catch((err) => {
   console.log("❎ Unable to connect to the Mongodb database. Error:" + err);
